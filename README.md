@@ -111,7 +111,7 @@ Watch video tutorial [<p align="center">
 ## Contact
 
 ### Get OmniSCV
-To obtain the code, send a message to Bruno Berenguel (berenguel@unizar.es).<\p>
+To obtain the code, send a message to Bruno Berenguel (berenguel@unizar.es). </p>
 Please, in the message present yourself and your organization and explain why you want the simulator.
 
 ### Download Data set
