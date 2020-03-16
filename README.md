@@ -94,11 +94,6 @@ For no-central cameras, we have implemented:</p>
 
 	 What do you want to do?: 
 ```
-### Download Data set
-Not Available yet: [download](https://github.com/Sbrunoberenguel/ImageSimulator)
-
-### Download Models
-UnrealCV scenarios: [download](http://docs.unrealcv.org/en/master/reference/model_zoo.html)
 
 ## Step-by-step example
 First thing we are going to do is download a scenario from [UnrealCV](http://docs.unrealcv.org/en/master/reference/model_zoo.html) In this example, it will be RealisticRendering.
@@ -115,6 +110,17 @@ Watch video tutorial [<p align="center">
 <img src='config/img/OMNISCV_MENU.png' width=400>](https://youtube.com)
 
 ## Contact
+
+### Get OmniSCV
+To obtain the code, send a message to [Bruno Berenguel](berenguel@unizar.es).
+Please, in the message present yourself and your organization and explain why you want the simulator.
+
+### Download Data set
+Not Available yet: [download](https://github.com/Sbrunoberenguel/ImageSimulator)
+
+### Download Models
+UnrealCV scenarios: [download](http://docs.unrealcv.org/en/master/reference/model_zoo.html)
+
 
 ## License 
 This software is under GNU General Public License Version 3 (GPLv3), please see [GNU License](http://www.gnu.org/licenses/gpl.html)
