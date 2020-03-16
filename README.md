@@ -2,13 +2,12 @@
 Python 2.7 implementation for a camera simulator.
 
 ## Introduction
-This repository contains the python scripts to obtain synthetic realistic images from a list of camera models. 
 <p align="center">
 <img src='config/img/fish_eye.png' width=400>
   </p>
   
 ### Camera models
-In this simulator we include two types of cameras, central and no-central cameras.
+In this simulator we include two types of projection models, central and no-central.
 For the central cameras, we have implemented:</p>
  - Equirectangular
  - Cylindric
@@ -64,7 +63,7 @@ For no-central cameras, we have implemented:</p>
 
 #### OmniSCV
 
- This cameras are modeled acording different mathematical models. These models are explained with detail in the papers of [Jesus Bermudez](http://webdiis.unizar.es/~bermudez/) and the article of [Bruno Berenguel](sensors)</p>
+ This cameras are modeled acording different mathematical models. These models are explained with detail in the papers of [Jesus Bermudez](http://webdiis.unizar.es/~bermudez/) </p>
  Once known the models, we start to build the images of this simulator mapping our environment in a sphere arround the camera. As an sphere is difficult to obtain from planar images, we aproximate it with a cube-map formed by 6 images in the main directions (the cartesian axis X, Y, Z). We build a cube-map for each location in our scenario where we want to make an image. To do so with our simulator, we first need to set the locations where we want to take the images. Editing the file 'cam\_loc.txt', we set the different locations where we are going to get the cube-maps. In this file we have to write the coordinates (x,y,z) in one line and separated by white spaces for each location. 
  <p align="center">
 <img src='config/img/cubemap.png' width=600>
