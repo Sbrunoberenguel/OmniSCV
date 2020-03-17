@@ -38,17 +38,17 @@ For no-central cameras, we have implemented:</p>
 #### This code has been compiled and tested in Linux using:
   - python 2.7
  
-#### Install  python requirements:
-  To use this image simulator, first you have to make sure that you have installed the following python packages:</p>
+#### Package requirements:
+  To use this image simulator, first you have to have installed the following python packages:</p>
   - UnrealCV 
-  - Numpy 
+  - Numpy (version 1.16.6)
   - Math 
-  - Pillow 
+  - Pillow (version 5.1.0)
   - StringIO 
   - os 
-  - scipy.optimization
-  - OpenCV (cv2)
-  - Open3D
+  - scipy.optimization (version 1.2.1)
+  - cv2 (version 4.2.0)
+  - Open3D (version 0.9.0.0)
 
 ### User guide
 
@@ -58,12 +58,11 @@ For no-central cameras, we have implemented:</p>
  - cam_loc.txt : in this file we will specify the locations from where we want to take the images
  - cam_rot.txt : in this file we will set the rotation for each location. This file is prone to use for trajectories.
  - mask_list_scene.txt : we will save the name of the objects in the scene in this file as well as the semantic segmentation color
- - layout_list_scene.txt : we will save the name of the objects that build the layout of the room in this file
- - cube_rot.txt, layout_colors_scene.txt : this files will not be used by the user, are for support the main program
+ - cube_rot.txt, layout_colors_scene.txt, layout_list_scene.txt : this files will not be used by the user, are for support the main program
 
 #### OmniSCV
 
- This cameras are modeled acording different mathematical models. These models are explained with detail in the papers of [Jesus Bermudez](http://webdiis.unizar.es/~bermudez/) </p>
+ These cameras are modeled acording different mathematical models. These models are explained with detail in the papers of [Jesus Bermudez](http://webdiis.unizar.es/~bermudez/) </p>
  Once known the models, we start to build the images of this simulator mapping our environment in a sphere arround the camera. As an sphere is difficult to obtain from planar images, we aproximate it with a cube-map formed by 6 images in the main directions (the cartesian axis X, Y, Z). We build a cube-map for each location in our scenario where we want to make an image. To do so with our simulator, we first need to set the locations where we want to take the images. Editing the file 'cam\_loc.txt', we set the different locations where we are going to get the cube-maps. In this file we have to write the coordinates (x,y,z) in one line and separated by white spaces for each location. 
  <p align="center">
 <img src='config/img/cubemap.png' width=600>
@@ -73,7 +72,7 @@ For no-central cameras, we have implemented:</p>
  The first one to appear is Acquisition. This function makes an image acquisition from the virtual environment for the composition of central projection images. <\p>
  The second option is Composition. Here we can choose which kind of image we want to compose. It's divided between central and non-central projection systems. For the central projection systems we need to build the cube-maps (made with the acquisition). For the non-central systems, since acquisition and composition are mixed, you can do the composition directly, without previous acquisition. <\p>
  Next comes Scenario. It will give the name of the scenario to the composed images. Usefull for large data-sets with different scenarios. <\p>
- And last but not least, Functions. It under development, stil have some bugs. However, we can obtain ground truth information of the layout of the scene extracting the layout of the environment (removes the objects of the scene and makes a cube-map). Besides, we can create trajectories, compound videos from frames and make reconstructions of the scene via point cloud from the omnidirectional images builded.
+ And last but not least, Functions. It's under development, stil have some bugs. However, we can obtain ground truth information of the layout of the scene extracting the layout of the environment.
 
 ```bash
 	$ python simulator.py
