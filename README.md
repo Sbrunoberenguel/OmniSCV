@@ -39,7 +39,7 @@ For no-central cameras, we have implemented:</p>
   - python 2.7
  
 #### Package requirements:
-  To use this image simulator, first you have to have installed the following python packages:</p>
+  To use this image simulator, first you have to have installed the following python packages. The version of each package is that of development, other versions might work but are not tested. </p>
   - UnrealCV 
   - Numpy (version 1.16.6)
   - Math 
@@ -68,10 +68,10 @@ For no-central cameras, we have implemented:</p>
 <img src='config/img/cubemap.png' width=600>
   </p>
 
- Defined each location in the environment from where we take the acquisition, we run our main program 'simulator.py'. After we run the program, a menu will appear (If it takes more than 5 seconds to appear we recomend to close and reopen the simulator). From this menu we will be able to chose differenct functions. <\p>
- The first one to appear is Acquisition. This function makes an image acquisition from the virtual environment for the composition of central projection images. <\p>
- The second option is Composition. Here we can choose which kind of image we want to compose. It's divided between central and non-central projection systems. For the central projection systems we need to build the cube-maps (made with the acquisition). For the non-central systems, since acquisition and composition are mixed, you can do the composition directly, without previous acquisition. <\p>
- Next comes Scenario. It will give the name of the scenario to the composed images. Usefull for large data-sets with different scenarios. <\p>
+ Defined each location in the environment from where we take the acquisition, we run our main program 'simulator.py'. After we run the program, a menu will appear (If it takes more than 5 seconds to appear we recomend to close and reopen the simulator). From this menu we will be able to chose differenct functions. </p>
+ The first one to appear is Acquisition. This function makes an image acquisition from the virtual environment for the composition of central projection images. </p>
+ The second option is Composition. Here we can choose which kind of image we want to compose. It's divided between central and non-central projection systems. For the central projection systems we need to build the cube-maps (made with the acquisition). For the non-central systems, since acquisition and composition are mixed, you can do the composition directly, without previous acquisition. </p>
+ Next comes Scenario. It will give the name of the scenario to the composed images. Usefull for large data-sets with different scenarios. </p>
  And last but not least, Functions. It's under development, stil have some bugs. However, we can obtain ground truth information of the layout of the scene extracting the layout of the environment.
 
 ```bash
