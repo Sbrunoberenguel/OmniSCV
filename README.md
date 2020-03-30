@@ -57,12 +57,11 @@ For no-central cameras, we have implemented:</p>
  With our "Pack" placed in the correct directory, we enter the folder and we will find several files. The main script is "simulator.py". From this script we will run the image simulator OmniSCV and we will be able to obtain the images from the virtual environment. The other files we can find in the folder are:
  - cam_loc.txt : in this file we will specify the locations from where we want to take the images
  - cam_rot.txt : in this file we will set the rotation for each location. This file is prone to use for trajectories.
- - mask_list_scene.txt : we will save the name of the objects in the scene in this file as well as the semantic segmentation color
- - cube_rot.txt, layout_colors_scene.txt, layout_list_scene.txt : this files will not be used by the user, are for support the main program
+ - Other : this files will not be used by the user, are for support the main program
 
 #### OmniSCV
 
- These cameras are modeled acording different mathematical models. These models are explained with detail in the papers of [Jesus Bermudez](http://webdiis.unizar.es/~bermudez/) </p>
+ These cameras are modeled acording different mathematical models. These models are explained with detail in the papers of [Jesus Bermudez-Cameo](http://webdiis.unizar.es/~bermudez/) </p>
  Once known the models, we start to build the images of this simulator mapping our environment in a sphere arround the camera. As an sphere is difficult to obtain from planar images, we aproximate it with a cube-map formed by 6 images in the main directions (the cartesian axis X, Y, Z). We build a cube-map for each location in our scenario where we want to make an image. To do so with our simulator, we first need to set the locations where we want to take the images. Editing the file 'cam\_loc.txt', we set the different locations where we are going to get the cube-maps. In this file we have to write the coordinates (x,y,z) in one line and separated by white spaces for each location. 
  <p align="center">
 <img src='config/img/cubemap.png' width=600>
@@ -105,12 +104,12 @@ Once we have downloaded the scenario and unzipped it, we go to the directory of 
   </p>
 
 Watch video tutorial [<p align="center">
-<img src='config/img/OMNISCV_MENU.png' width=400>](https://youtube.com)
+<img src='config/img/OMNISCV_MENU.png' width=800>](https://youtube.com)
 
 ## Contact
 
 ### Get OmniSCV
-To obtain the code, send a message to Bruno Berenguel (berenguel@unizar.es). </p>
+To obtain the code, send a message to Bruno Berenguel-Baeta (berenguel@unizar.es). </p>
 Please, in the message present yourself and your organization and explain why you want the simulator.
 
 ### Download Data set
