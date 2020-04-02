@@ -1,4 +1,4 @@
-# OmniSCV: Omnidirectional Synthetic image simulator for Computer Vision
+# OmniSCV: Omnidirectional Synthetic image generator for Computer Vision
 Python 2.7 implementation for a camera simulator.
 
 ## Introduction
