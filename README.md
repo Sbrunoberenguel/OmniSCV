@@ -31,6 +31,8 @@ For no-central cameras, we have implemented:</p>
 	
 ## Citing
 
+If you use and like our tool, please cite our paper [OmniSCV: An Omnidirectional Synthetic Image Generator for Computer Vision](https://www.mdpi.com/684584) 
+
 ## Use Instructions
 
 ### Install Requirements
