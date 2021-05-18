@@ -124,7 +124,7 @@ UnrealCV scenarios: [download](http://docs.unrealcv.org/en/master/reference/mode
 ## License 
 This software is under GNU General Public License Version 3 (GPLv3), please see [GNU License](http://www.gnu.org/licenses/gpl.html)
 
-For commercial purposes, please contact the authors.
+For commercial purposes, please contact the authors: Bruno Berenguel-Baeta (berenguel@unizar.es), Jesús Bermudez-Cameo (bermudez@unizar.es) and Josechu Guerrero (josechu.guerrero@unizar.es)
 
 
 ## Disclaimer
