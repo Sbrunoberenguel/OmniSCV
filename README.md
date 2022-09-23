@@ -1,5 +1,5 @@
 # OmniSCV: Omnidirectional Synthetic image generator for Computer Vision
-Python 2.7 implementation for a camera simulator.
+Python implementation for a camera simulator.
 
 ## Introduction
 <p align="center">
@@ -39,6 +39,7 @@ If you use and like our tool, please cite our paper [OmniSCV: An Omnidirectional
 
 #### This code has been compiled and tested in Linux using:
   - python 2.7
+  - python 3.6
  
 #### Package requirements:
   To use this image simulator, first you have to have installed the following python packages. The version of each package is that of development, other versions might work but are not tested. </p>
@@ -110,12 +111,8 @@ Watch video tutorial [<p align="center">
 
 ## Contact
 
-### Get OmniSCV
-To obtain the code, send a message to Bruno Berenguel-Baeta (berenguel@unizar.es). </p>
-Please, in the message present yourself and your organization and explain why you want the simulator.
-
 ### Download Data set
-Not Available yet: [download](https://github.com/Sbrunoberenguel/ImageSimulator)
+Not Available yet: [download](https://drive.google.com/drive/folders/1LdFPBIe62juUYXwlFeQI7YURiqeiq5VW?usp=sharing)
 
 ### Download Models
 UnrealCV scenarios: [download](http://docs.unrealcv.org/en/master/reference/model_zoo.html)
@@ -127,7 +124,11 @@ This software is under GNU General Public License Version 3 (GPLv3), please see 
 For commercial purposes, please contact the authors: Bruno Berenguel-Baeta (berenguel@unizar.es), Jesús Bermudez-Cameo (bermudez@unizar.es) and Josechu Guerrero (josechu.guerrero@unizar.es)
 
 
-## Disclaimer
+## Note from the authors
 
-This site and the code provided here are under active development. Even though we try to only release working high quality code, this version might still contain some issues. Please use it with caution.
+This code has not been thoroughly tested, which means it may have some bugs. Please use with caution.
+
+The authors and developers of this code want the best for the users and have gone to great lengths to make it easy to use and accessible. Be nice to them and enjoy their work.
+
+If any problem may appear, do not hesitate and we will do our best to solve it (at least we will try).
 
