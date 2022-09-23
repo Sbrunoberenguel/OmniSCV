@@ -95,26 +95,12 @@ If you use and like our tool, please cite our paper [OmniSCV: An Omnidirectional
 	 What do you want to do?: 
 ```
 
-## Step-by-step example
-First thing we are going to do is download a scenario from [UnrealCV](http://docs.unrealcv.org/en/master/reference/model_zoo.html) In this example, it will be RealisticRendering.
-<p align="center">
-<img src='config/img/unrealcv.png' width=900>
-  </p>
+## Downloads
 
-Once we have downloaded the scenario and unzipped it, we go to the directory of the executable and copy the folder of our simulator.
-<p align="center">
-<img src='config/img/directory.png' width=900>
-  </p>
+### Data set
+Omnidirectional images from different indoor environments generated with Unreal Engine 4: [download](https://drive.google.com/drive/folders/1LdFPBIe62juUYXwlFeQI7YURiqeiq5VW?usp=sharing)
 
-Watch video tutorial [<p align="center">
-<img src='config/img/OMNISCV_MENU.png' width=800>](https://youtube.com)
-
-## Contact
-
-### Download Data set
-Not Available yet: [download](https://drive.google.com/drive/folders/1LdFPBIe62juUYXwlFeQI7YURiqeiq5VW?usp=sharing)
-
-### Download Models
+### Scenarios
 UnrealCV scenarios: [download](http://docs.unrealcv.org/en/master/reference/model_zoo.html)
 
 
