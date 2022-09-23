@@ -1,0 +1,22 @@
+Details of omnidirectional images obtained with the simulator 
+Image name: 
+Projection model: 
+Resolution: 
+View mode: 
+Optical center coordinates: 
+YPR = 0 0 0 (degrees)
+Rotation matrix =
+[1,0,0;
+ 0,1,0;
+ 0,0,1]
+ 
+ Image:
+ ____________________________
+|			 -Y				|
+|							|
+|							|
+|-Z	  -X	 +Z		+X	  -Z|
+|							|
+|							|
+|			 +Y				|
+ ____________________________
