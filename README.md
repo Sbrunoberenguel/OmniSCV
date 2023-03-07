@@ -98,7 +98,7 @@ If you use and like our tool, please cite our paper [OmniSCV: An Omnidirectional
 ## Downloads
 
 ### Data set
-Omnidirectional images from different indoor environments generated with Unreal Engine 4: [download](https://drive.google.com/drive/folders/1LdFPBIe62juUYXwlFeQI7YURiqeiq5VW?usp=sharing)
+Omnidirectional images from different indoor environments generated with Unreal Engine 4: [download](https://unizares-my.sharepoint.com/:f:/g/personal/berenguel_unizar_es/EqrU71B49gVDuACVTZ5U0uEBvIG802ntRSXzWJ9ddYDygw?e=6mJw4p)
 
 ### Scenarios
 UnrealCV scenarios: [download](http://docs.unrealcv.org/en/master/reference/model_zoo.html)
